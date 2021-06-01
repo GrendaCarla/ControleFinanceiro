@@ -14,7 +14,7 @@
 	ArrayList<Receitas> receitas = receitaDao.buscarTodos();
 	
 	/*DespesasDAO despesasDao = new DespesasDAO();
-	ArrayList<Despesas> despesas = despesasDao.buscarTodos();*/
+	ArrayList<Despesas> despesas = despesasDao.buscarTodos(); aaaaaaaaa*/
 %>
     
     
