@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #52D19C;
+}
+
+#BarraSuperior{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+
+	background-color: black;
+	width: 100%;
+
+	color: white;
+	font-size: 190%;
+	text-align: center;
+}
+
+
+.Titulo{
+
+	background-color: black;
+	color: white;
+	font-size: 170%;
+	text-align: center;
+
+	width: 250px;
+	height: 50px;
+}
+
+.Tabela{
+	background-color: white;
+	color: black;
+
+	width: 100%;
+	font-size: 18px;
+}
+
+.TabelaCentral{
+
+	width: 99%;
+}
+
+.LetraBranca{
+	color: white;
+	background-color: black;
+}
+
+.Fonte1{
+	font-size: 16px;
+}
+
+input{
+	font-size: 16px;
+}
+
+.Dinheiro{
+	text-align: right;
+}
+
+.BarraValor{
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 36px;
+	font-size: 20px;
+}
+
+#BarraTotal{
+	color: white;
+	background-color: black;
+	width: 100%;
+	font-size: 190%;
+	
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+
+.seta-esquerda-data:before {
+  content: "";
+  display: inline-block;
+  vertical-align: button;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+  cursor: pointer;
+
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  border-right: 15px solid white; 
+}
+
+.seta-direita-data:before {
+  content: "";
+  display: inline-block;
+  vertical-align: button;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+  cursor: pointer;
+
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+}
+
+.FontNegrito{
+	font-weight: bold;
+}
+
+#botaoOK{
+	width: 70px; 
+}
+
+.CorReceita{
+	color: #00FF57;
+}
+
+.seta-esquerda-tabela:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent; 
+  border-right: 18px solid black; 
+}
+
+.seta-direita-tabela:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 18px solid black;
+}
+
+.BotaoExcluir{
+	background-color: #FF034F;
+	color: white;
+}
