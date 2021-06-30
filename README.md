@@ -6,6 +6,10 @@ O Controle Financeiro é um desenvolvimento java web para gerenciamento simples 
 
 * Java Web
 * Bootstrap
+* HTML
+* JavaScript
+* CSS
+* MySQL
 
 # printscreen UI
 
